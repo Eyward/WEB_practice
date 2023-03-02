@@ -1,0 +1,92 @@
+<!-- ZAKARIA ZIRH               IRIC2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <h2>Formulaire d’inscription</h2>
+    <form action="/action.php" method="post">
+
+        <fieldset>
+            <legend>Formulaire:</legend>
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td width="70%"><input type="text" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Prenom</td>
+                    <td width="70%"><input type="text" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Sexe</td>
+                    <td width="70%"><input type="radio"=30><label for="radio">Feminin<input type="radio"=30><label
+                                for="radio">Masculin</td>
+                </tr>
+                <tr>
+                    <td>Date de naissance</td>
+                    <td width="70%"><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Niveau d'etude</td>
+                    <td width="70%"><select size="3" name="Niveau" id="annee">
+                            <option value="1ere annee College">1ere annee College</option>
+                            <option value="2eme annee College">2eme annee College</option>
+                            <option value="3eme annee College">3eme annee College</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Specialite</td>
+                    <td width="70%"><input list="Specialite">
+
+                        <datalist id="Specialite">
+                            <option value="IRIC">
+                            <option value="GE">
+                            <option value="GI">
+                            <option value="GPEE">
+                            <option value="IID">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telephone</td>
+                    <td width="70%"><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td width="70%"><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Site web personnel</td>
+                    <td width="70%"><input type="url"></td>
+                </tr>
+                <tr>
+                    <td>Adresse</td>
+                    <td width="70%"><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td width="70%"><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Loisires</td>
+                    <td width="70%">
+                        <input type="checkbox" id="loisires">Sport<input type="checkbox" id="loisires">cinéma<input
+                            type="checkbox" id="loisires">La télévision
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Valider"></td>
+                    <td><input type="reset" value="Réinitialiser "></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+/* ZAKAria ZIRH        IRIC2*/
+
+.article{
+    background-color:rgb(174, 174, 174);
+    position: absolute;
+    top: 20px;
+    left:550px;
+   }
+.details{
+    background-color:rgb(100, 100, 187);
+    position: absolute;
+    top: 100px;
+    left:100px;
+}
+.fix{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(100, 100, 187);
+}

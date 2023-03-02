@@ -1,0 +1,16 @@
+/* ZAKAria ZIRH        IRIC2*/
+
+
+tr,th,table
+{
+  border-collapse: collapse;
+  background-color:rgb(120, 193, 230);
+  color:white;
+}
+table{
+    
+    border-spacing: 0;
+    border-collapse: separate;
+    border-top-right-radius: 50px;
+    border: 5px solid rgb(229, 186, 85);
+}

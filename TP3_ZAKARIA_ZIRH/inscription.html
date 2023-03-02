@@ -1,0 +1,60 @@
+<!-- ZAKARIA ZIRH        IRIC2 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inscription</title>
+        <link rel="stylesheet" href="style_ins.css">
+    </head>
+<h1>Réalisation de Synthèse 1</h1>
+<form action="aimelt.php" method="post">
+<table style="width: 500px ;" cellspanding="0" cellspacing="2">
+    <tbody>
+    <tr><td style="color:rgb(41, 8, 227)" ><strong>Inscription</strong></td></tr>
+    <tr><td style="width: 200px" >Nom</td><td style="width: 500px">
+        <input type="text" name="Nom" value="">
+    </td></tr>
+    <tr><td>Prenom</td><td>
+        <input type="text" name="Prenom" value="">
+    </td></tr>
+    <tr><td>Sexe</td><td>
+        <input type="radio" name="Sexe"> Masculin
+        <input type="radio" name="Sexe"> Féminin
+    </td></tr>
+    <tr><td>Date de naissance</td><td>
+        <input type="date" name="Date" value="">
+    </td></tr>
+    <tr><td>Niveau d'étude</td><td>
+        <select name="Niveau d'étude" size="3">
+            <option>1ère année IRIC</option>
+            <option>2ère année IRIC</option>
+            <option>3ère année IRIC</option>
+         </select>
+    </td></tr>
+    <tr><td>Spécialité</td><td>
+        <input list="Specialite"><datalist></datalist>
+    </td></tr>
+    <tr><td>Téléphone</td><td>
+        <input type="tel" name="Téléphone" value="">
+    </td></tr>
+    <tr><td>Email</td><td>
+        <input type="email" name="Email" value="">
+    </td></tr>
+    <tr><td>Site web personnel</td><td>
+        <input type="url" name="Site" value="">
+    </td></tr>
+    <tr><td>Adresse</td><td>
+        <textarea id="Adresse" name="Adresse" rows="5" cols="40"></textarea>
+    </td></tr>
+    <tr><td>photo</td><td>
+        <input type="file" name="photo">
+    </td></tr>
+    <tr><td></td><td>
+        <input type="submit" value="submit">
+    </td></tr>
+   <tr><td></td><td>
+        <input type="reset"  value="reset">
+    </td></tr>
+    </tbody>
+</form>
+</html>

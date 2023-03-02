@@ -1,0 +1,54 @@
+/* ZAKAria ZIRH        IRIC2*/
+
+div {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+/*cas1 */
+.block2 {
+  float: left;
+  background: #3498db;
+  height: 40px;
+}
+.block3 {
+  background: #d35400;
+  height: 60px;
+}
+.block4 {
+  background: rgb(8, 64, 16);
+}
+/* cas2 */
+
+.block2 {
+  float: left;
+  background: #3498db;
+  height: 40px;
+}
+.block3 {
+  float: right;
+  background: #d35400;
+  height: 40px;
+}
+.block4 {
+  clear: both;
+  background: #1abc9c;
+  height: 40px;
+}
+
+/*cas3*/
+.block2 {
+  float: right;
+  background: #3498db;
+}
+.block3 {
+  clear: right;
+  float: right;
+  background: #d35400;
+}
+.block4 {
+  clear: right;
+  float: right;
+  background: #1abc9c;
+} 

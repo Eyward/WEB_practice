@@ -1,0 +1,27 @@
+/* ZAKAria ZIRH        IRIC2*/
+
+
+table
+{
+    border: 5px solid rgb(122, 186, 188);
+    border-radius: 100px;
+    background-color: rgb(181, 224, 236);
+    color:black;    
+
+}
+input[type=text] {
+    border: 4px solid green;
+    border-radius: 100px;
+    background-color: rgb(212, 238, 117);
+    border-style: solid;
+    border-left-color: red;
+    border-right-color: red;
+  }
+input[type=password] {
+    border: 4px solid green;
+    border-radius: 100px;
+    background-color: rgb(212, 238, 117);
+    border-style: solid;
+    border-left-color: red;
+    border-right-color: red;
+  }

@@ -1,0 +1,49 @@
+/* ZAKAria ZIRH        IRIC2*/
+.block1 {
+    background-color: blue;
+    height: 50px;
+}
+.block2 {
+    background-color: green;
+    height: 50px;
+    margin-top: 20px;
+ }
+.block3 {
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    float: left;
+}
+.block4 {
+    background-color: green;
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.block5 {
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.conteneur {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    padding-top: 40px;
+}
+.block6 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.conteneur1 {
+    width: 40%;
+    background-color: yellow;
+}
+.image {
+    float: right;
+}
